@@ -1,0 +1,27 @@
+{
+  "streams": [
+    {
+      "title": "Signed In and I made this stream! ... then edit it!",
+      "description": "Patch request!!",
+      "userId": "100459003636157594735",
+      "id": 4
+    },
+    {
+      "title": "Now I refactored the edit stream to push to root route",
+      "description": "Watch me refactor!",
+      "id": 6
+    },
+    {
+      "title": "New Stream",
+      "description": "Stream description",
+      "userId": "100459003636157594735",
+      "id": 7
+    },
+    {
+      "title": "Stream Show Me",
+      "description": "Description for new stream",
+      "userId": "100459003636157594735",
+      "id": 8
+    }
+  ]
+}
