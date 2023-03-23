@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --spacing-xs: 0.3rem;
+  --spacing-s: 0.8rem;
+  --spacing-m: 2rem;
+  --spacing-l: 3.5rem;
+
+  --pad-m: 2rem;
+
+  --accent-dark: #030d0d;
+  --accent-btn: #0f1111;
+  /* --accent: #445455; */
+  --accent: #5f00c3;
+  --accent-light: #d4e7e8;
+  --accent-lighter: #e9fbfc;
+  --gray-200: #e2e2e2;
+  --gray-500: #c2c2c2;
+  --gray-700: #828282;
+  --text-primary: rgba(240, 241, 240, 0.95);
+  --text-primary--dark: #170606;
+
+  --font-secondary: Syne;
+
+  color: var(--gray-200);
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+}
+
+.debug {
+  outline: 2px solid red;
+  background: rgba(200, 0, 0, 0.5);
+}
+
+input:focus {
+  outline: 1.5px solid var(--accent);
+}
+
+button {
+  background: var(--accent-btn);
+  color: var(--text-primary);
+  padding: var(--spacing-xs) var(--spacing-s);
+  border: 1.5px solid var(--gray-500);
+  border-radius: var(--spacing-xs);
+}
+
+button:hover {
+  background: var(--accent);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: var(--accent-dark);
+  min-height: 5vh;
+  padding: var(--spacing-m) 0;
+  border-bottom: 2px solid var(--accent);
+}
+
+nav a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-xs {
+  gap: var(--spacing-xs);
+}
+
+.col {
+  flex-direction: column;
+}
+
+.content {
+  padding: 0 var(--pad-m);
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.un {
+  color: var(--text-primary);
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(var(--accent-light) 0 0);
+  background-position: right bottom; /* OR left bottom*/
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+
+.un:hover {
+  background-size: 0% 2px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.divider {
+  border-bottom: 2px solid var(--accent);
+  width: 30%;
+  margin-top: 2rem;
+}
+
+.center {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.user_list {
+  padding: 1.5rem 0;
+}
+
+.user_list h3 {
+  color: var(--text-primary);
+}
+
+h3 .info {
+  font-family: var(--font-secondary);
+  font-size: 0.7em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
