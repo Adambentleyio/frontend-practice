@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/custom-base-styles.css"],"names":[],"mappings":"AAAA;EACE,aAAa;AACf","file":"custom-base-styles.css","sourcesContent":["body .hero {\r\n  color: indigo;\r\n}"]}

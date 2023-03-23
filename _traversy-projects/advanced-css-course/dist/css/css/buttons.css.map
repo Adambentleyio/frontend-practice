@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/buttons.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;AACd;;AAEA;EACE,qBAAqB;AACvB","file":"buttons.css","sourcesContent":[".btn {\r\n  display: inline-block;\r\n  padding: 2rem 2.5rem;\r\n  margin: 1rem;\r\n}\r\n\r\n.btn--blue {\r\n  background-color: red;\r\n}"]}

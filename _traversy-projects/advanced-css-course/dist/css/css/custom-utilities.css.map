@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/custom-utilities.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB","file":"custom-utilities.css","sourcesContent":[".align-center-yo {\r\n  text-align: center;\r\n}\r\n\r\n.color-blue-yo {\r\n  color: darkblue;\r\n}"]}

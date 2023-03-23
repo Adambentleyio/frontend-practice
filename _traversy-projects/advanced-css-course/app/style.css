@@ -1,0 +1,22 @@
+/* @tailwind base;
+
+@tailwind components;
+
+@tailwind utilities; */
+
+/* above replaced with @import with postcss-import. The @import points to tailwind css files in node modules and allows using multiple css files through @import */
+
+@import "tailwindcss/base";
+@import "./css/custom-base-styles.css";
+
+@import "tailwindcss/components";
+@import "./css/custom-components.css";
+
+@import "tailwindcss/utilities";
+@import "./css/custom-utilities.css";
+
+.honey-monster {
+  color: pink;
+}
+
+

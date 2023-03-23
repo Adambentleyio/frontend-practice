@@ -1,0 +1,14 @@
+.btn {
+  display: inline-block;
+  padding: 2rem 2.5rem;
+  margin: 1rem;
+}
+
+.btn--blue {
+  background-color: red;
+}
+
+.card123 {
+  color: purple;
+}
+/*# sourceMappingURL=custom-components.css.map */

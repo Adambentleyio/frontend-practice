@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <h2 class="title">Adam's Library</h2>
+
+    <!-- Creating an input field and button for users to submit a new book title to the library
+    when the button is clicked we need to add the text to the myLibrary array-->
+    <form>
+      <input id="input" value="Norwegien Wood"name="book-title"class="input-field" type="text" placeholder="Book title">
+      <button name="book-title" type="button" class="btn" id="inputBtn" >Add New Book</button>
+    </form>
+  </div>
+
+  <div class="library">
+    <h2>Our current stock</h2>
+    <hr>
+    <div class="library-card" id="library">
+    </div>
+  </div>
+
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "all": "0.0.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "browser-sync": "^2.26.7",
+    "browsersync": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build app/style.css -o dist/style.css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
